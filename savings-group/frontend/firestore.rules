@@ -1,0 +1,10 @@
+// In Firebase Console > Firestore Database > Rules
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow read/write access to all users under any conditions
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
