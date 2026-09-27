@@ -1,0 +1,5 @@
+# Proxy API requests to Oracle Cloud backend
+/api/* http://144.24.242.189:3002/api/:splat 200
+
+# SPA routing - all other requests go to index.html
+/* /index.html 200

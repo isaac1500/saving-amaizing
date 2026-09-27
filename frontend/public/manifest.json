@@ -1,0 +1,36 @@
+{
+  "short_name": "Savings Group",
+  "name": "Savings Group Manager",
+  "description": "Manage your savings group, track transactions, earn interest at 11.5% p.a.",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "64x64 128x128 256x256 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#8b5cf6",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "categories": ["finance", "business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your dashboard",
+      "url": "/",
+      "icons": [{ "src": "logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Transactions",
+      "short_name": "Transactions",
+      "description": "View your transactions",
+      "url": "/transactions",
+      "icons": [{ "src": "logo.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
